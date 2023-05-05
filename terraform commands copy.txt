@@ -1,0 +1,4 @@
+// import from IONOS DCD
+// UUID Datacenter  21fe538b-3ae8-4535-8390-8e7185f1e539
+// Server           5236bf87-efd2-4159-8939-c3895d713d97
+terraform import ionoscloud_cube_server.SBlade01 21fe538b-3ae8-4535-8390-8e7185f1e539/5236bf87-efd2-4159-8939-c3895d713d97
