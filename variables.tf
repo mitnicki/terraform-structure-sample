@@ -14,5 +14,5 @@ variable "cube_size_2" {
 }
 
 variable "adn_image_name" {
-    default = ""
+    default = " "
 }
