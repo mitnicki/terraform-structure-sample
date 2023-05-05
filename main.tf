@@ -15,10 +15,10 @@ provider "ionoscloud" {
 
 #
 
-# IONOES Cube template
-# data "ionoscloud_template" "cubetmp" {
-#     name            = var.cube_size_2
-# }
+#IONOES Cube template
+data "ionoscloud_template" "cubetmp" {
+    name            = var.cube_size_2
+}
 
 # CREATE NEW CUBE SERVER
 # resource "ionoscloud_cube_server" "TestCube01" {
