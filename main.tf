@@ -46,7 +46,7 @@ provider "ionoscloud" {
      datacenter_id     = "21fe538b-3ae8-4535-8390-8e7185f1e539"
      name              = "LAN2"
      public            = true
- }
+  }
 
 # Create Virtual Machine
 # resource "ionoscloud_server" "SBlade01" {
