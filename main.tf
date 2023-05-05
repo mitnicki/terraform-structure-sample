@@ -16,7 +16,7 @@ provider "ionoscloud" {
 #
 
 #IONOES Cube template
-data "ionoscloud_template" "cubetmp" {
+   data "ionoscloud_template" "cubetmp" {
    name            = var.cube_size_2
 }
 
@@ -42,11 +42,11 @@ data "ionoscloud_template" "cubetmp" {
 #    }
 # }
 
-# resource "ionoscloud_lan" "LAN2" {
-#     datacenter_id     = "21fe538b-3ae8-4535-8390-8e7185f1e539"
-#     name              = "LAN2"
-#     public            = true
-# }
+ resource "ionoscloud_lan" "LAN2" {
+     datacenter_id     = "21fe538b-3ae8-4535-8390-8e7185f1e539"
+     name              = "LAN2"
+     public            = true
+ }
 
 # Create Virtual Machine
 # resource "ionoscloud_server" "SBlade01" {
