@@ -9,7 +9,7 @@ terraform {
 
 
 provider "ionoscloud" {
-    token = var.IONOS_TOKEN
+     token = var.IONOS_TOKEN
     endpoint = "https://api.ionos.com/cloudapi/v6/"
 }
 
