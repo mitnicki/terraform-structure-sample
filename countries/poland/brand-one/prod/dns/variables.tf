@@ -1,2 +1,0 @@
-variable "organization" {}
-variable "domain" {}
