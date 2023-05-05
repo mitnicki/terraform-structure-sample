@@ -42,7 +42,7 @@ provider "ionoscloud" {
 #    }
 # }
 
-  resource "ionoscloud_lan" "LAN2" {
+   resource "ionoscloud_lan" "LAN2" {
      datacenter_id     = "21fe538b-3ae8-4535-8390-8e7185f1e539"
      name              = "LAN2"
      public            = true
