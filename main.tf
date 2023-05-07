@@ -13,12 +13,17 @@ provider "ionoscloud" {
     endpoint = "https://api.ionos.com/cloudapi/v6/"
 }
 
-#
+resource "ionoscloud_datacenter" "example" {
+  name                = "Datacenter Example"
+  location            = "de/fr"
+  description         = "datacenter description"
+  sec_auth_protection = false
+}
 
 #IONOES Cube template
-   data "ionoscloud_template" "cubetmp" {
-   name            = var.cube_size_2
-}
+#   data "ionoscloud_template" "cubetmp" {
+#   name            = var.cube_size_2
+#}
 
 # CREATE NEW CUBE SERVER
 # resource "ionoscloud_cube_server" "TestCube01" {
